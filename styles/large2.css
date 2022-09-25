@@ -1,7 +1,8 @@
-@media only screen and (min-width:40em){
+@media  only screen and (min-width: 60em){
 
-    html{ background-color: rgb(52, 51, 51);
+ html{ background-color: rgb(52, 51, 51);
     min-width:100vw;}
+    
     .wrapper{ 
         display:grid;
         width:100vw;
@@ -9,6 +10,7 @@
         justify-content:center;
         grid-template-columns:repeat(3, 30vw );
         grid-template-rows:1fr;
+        grid-template-areas:'none';
         place-items:stretch stretch;
         grid-gap:1em;
         padding-bottom:2em ;
@@ -16,17 +18,14 @@
     
        }
     
-    h1{font-size: 4em;
-    background-color: azure;
-    text-align: center;
-    width :100%;}
     
     .edhrec{
-        display:inline-grid;
-        border:2px solid ;
+        display:grid;
+        border:2px solid black;
         border-radius: 25px;
         max-height:fit-content;
         width:100%;
+        grid-row:1/1;
         grid-column:1/2 ;
         background-color: white;
         text-align: center;
@@ -55,10 +54,11 @@
         border-radius: 25px;
         max-height:fit-content;
         max-width:100% ;
+        grid-row:1/1;
         grid-column:2/2 ;
         background-color: white;
         text-align: center;
-        place-items: center top;
+        place-items: center;
         grid-template-rows: auto;
     }
     .pokemonc{
@@ -82,7 +82,7 @@
         display:grid;
         border:2px solid black;
         border-radius: 25px;
-        max-height:fit-content;
+        height:100%;
         width:100%;
         grid-column:3/3 ;
         grid-row:1;
@@ -110,7 +110,7 @@
     
     footer{
             margin:auto;
-            text-align: center;
+
             background: rgb(255, 255, 255);
             font-size: 1em;}
-    }
+}
