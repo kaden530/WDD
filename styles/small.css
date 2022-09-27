@@ -11,8 +11,7 @@
     }
     .headshot {
         max-width :60%;
-        max-height:auto
-    ;
+
     }
     .title{
         margin-left:auto;
@@ -30,7 +29,7 @@
         font-family: 'Space Mono', monospace;
         text-align:left;
         background: rgb(255, 255, 255);
-        padding:0, 10px,0,0;
+        padding:0 10px 0 0;
         font-size: 0.8em;
     }
     footer{
