@@ -1,4 +1,4 @@
-@media only screen and (min-width: 40em){
+@media only screen and (min-width: 89em){
     header,body,section,footer{
         margin-left:auto;
         margin-right:auto;
@@ -7,7 +7,7 @@
         header{
             display: grid;
             grid-template-rows:auto;
-            height: 25vh;
+            height: 30vh;
             background-color:rgb(120, 17, 6);
             color:black;
     
@@ -17,9 +17,7 @@
         
     .title{height:fit-content;
         font-size:2.5em ;
-        margin-top: 0px;
-        margin-left: auto;
-        margin-right: auto; 
+        margin: auto; 
         padding: 1%;
         background-color: white;
         border: solid 3px;
@@ -67,12 +65,12 @@
 }
         
         .nav-content a {
-            font-size: 2.1em;
+            font-size: 1.2%;
             margin:0.5em;
             padding: 1px;
             color: black;
             height:fit-content;
-            background-color: rgb(128, 128, 128,0.7);
+            background-color: rgb(128, 128, 128,0.8);
             text-decoration: none;
         
         }
