@@ -1,0 +1,84 @@
+@media only screen and (min-width: 40em){
+    header,body,section,footer{
+        margin-left:auto;
+        margin-right:auto;
+        max-width: 75%;}
+    
+        header{
+            display: grid;
+            grid-template-rows:auto;
+            height: 25vh;
+            background-color:rgb(120, 17, 6);
+            color:black;
+    
+            place-items:stretch stretch;    
+            row-gap: 0.5em;}
+        
+        
+    .title{height:fit-content;
+        font-size:2.5em ;
+        margin-top: 0px;
+        margin-left: auto;
+        margin-right: auto; 
+        padding: 1%;
+        background-color: white;
+        border: solid 3px;
+        border-radius: 30px;
+    }
+        
+        
+        /*button*/
+        .navbtn{
+         margin-left:5px;
+        justify-self: left;
+        width:fit-content;
+        height: fit-content;
+        font-size: 2.5em;
+        cursor:pointer;
+        background-color: grey;}
+        
+    
+        
+        /* parent div*/
+        .nav{
+            position: relative;}
+        
+        .nav-content{
+            width: max-content;
+            display:inline-flex;
+            flex-direction: row;
+            position: absolute;
+            height:100%;
+            width:100%;
+            transform:translate(0,0) scaleX(0);
+            transform-origin: top left;
+    
+            place-content: center;
+            padding:3px;
+            justify-content: space-between;
+            transition: 0.3s;
+            z-index: 2;}
+        
+        .newlist {
+            transform:translate(0%,-15%) scaleX(1);
+            transform-origin: top left;
+            width: max-content;
+            text-align: center;
+}
+        
+        .nav-content a {
+            font-size: 2.1em;
+            margin:0.5em;
+            padding: 1px;
+            color: black;
+            height:fit-content;
+            background-color: rgb(128, 128, 128,0.7);
+            text-decoration: none;
+        
+        }
+        
+        footer{    background: rgb(255, 255, 255);
+            margin-top:-1.15%;
+            font-size: 1em;}
+        }
+    

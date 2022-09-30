@@ -1,3 +1,90 @@
-nav {
-	display: flex;
-	flex-direction: column;}
+@media only screen and (min-width: 1em){
+html{
+    text-align: center;
+    background-color: black;}
+
+header,body,section,footer{
+    margin-left:auto;
+    margin-right:auto;
+    max-width: 98%;}
+
+header{
+    display: grid;
+    grid-template-rows:auto;
+    height: 40vh;
+    background-color:rgb(120, 17, 6);
+    color:black;
+    place-items:stretch stretch;    
+    row-gap: 0.5em;}
+
+
+.title{height:fit-content;
+margin-top: 0%;
+margin-bottom: 0%;
+padding: 0%;}
+
+
+/*button*/
+.navbtn{
+    margin-left:0px;
+    justify-self: left;
+    width:fit-content;
+    height: fit-content;
+    font-size: 1.5em;
+    cursor:pointer;
+    background-color: grey;}
+
+.navbtn:hover, .navbtn:focus {
+    color:white;
+    background-color: rgb(79, 79, 79);}
+
+/* parent div*/
+.nav{
+    width:fit-content;
+    height:100%;
+    position: relative;}
+
+.nav-content{
+    display:flex;
+    flex-direction: column;
+    position: absolute;
+    height:1em;
+    width: fit-content;
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: 0.3s;
+    z-index: 2;}
+
+.newlist {
+    transform: scaleY(1);
+    }
+
+.nav-content a {
+    color: black;
+    background-color: rgb(128, 128, 128,0.7);
+    padding: 12px 16px;
+    text-decoration: none;
+
+}
+
+.nav-content a:hover {
+    color: white;
+    background-color: black;}
+
+
+
+.nav:hover .nav:focus{background-color:rgb(55, 55, 55);}
+
+.title{
+    background-color: white;
+    border: solid 2px;
+    border-radius: 30px;}
+
+section{background-color: white;
+z-index: 1;}
+
+footer{
+    background: rgb(255, 255, 255);
+    margin-top:-1.15%;
+    font-size: 1em;}
+}
