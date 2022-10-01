@@ -27,6 +27,7 @@
         
         /*button*/
         .navbtn{
+            font-family: 'Rubik Dirt', cursive;
          margin-left:5px;
         justify-self: left;
         width:fit-content;
@@ -65,7 +66,7 @@
 }
         
         .nav-content a {
-            font-size: 1.2%;
+            font-size: 1.2em;
             margin:0.5em;
             padding: 1px;
             color: black;
@@ -75,7 +76,7 @@
         
         }
         
-        footer{    background: rgb(255, 255, 255);
+        footer{   font-family: 'Space Mono', monospace; background: rgb(255, 255, 255);
             margin-top:-1.15%;
             font-size: 1em;}
         }
