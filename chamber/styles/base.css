@@ -1,0 +1,132 @@
+html{
+    background-color: black;}
+header, main, footer{    margin: 0 auto 1em auto;
+    width: 95vw;}
+h1,h2,h3{
+        font-family: 'Lobster', cursive;}
+
+/*Header layout*/
+header{
+    display:grid;
+    grid-auto-flow: column;
+    align-items: center;
+    width:95vw;
+    grid-template-columns:repeat(2,auto);
+    grid-template-rows: 10vw repeat(5,auto);
+    background-color:rgb(120, 17, 6);
+    column-gap:2vw;
+row-gap: 0;}
+    header img{
+        grid-column:1/1 ;
+        grid-row:1/6 ;
+        max-width: 100%;
+        min-width: 60%;}
+    header h1{
+        text-align: center;
+        margin:0;
+       grid-column: 2/-1;
+       grid-row:3;
+        max-width: 100%;
+        font-size: 9vw}
+    header h3 {
+        margin:0;
+        text-align: top;
+      grid-column: 2;
+      grid-row:4;
+        font-size: 4vw;
+        max-width: 100%;}
+    header nav{
+        grid-column:1/3 ;
+        grid-row:6 ;}
+    header p {
+        margin:0 auto;
+        width: 100%;
+        font-size:5vw;
+        color: #eee;
+        text-align: center;
+        grid-column: 1/4;
+        grid-row:6;}
+    .linkedin{
+        grid-row: 1;
+        grid-column: 2;
+        height:100%;
+        max-width:40%;
+        margin-top:1em;}
+    .facebook{
+        justify-self: end;
+        grid-row: 1;
+        grid-column: 2;
+        height:100%;
+        max-width:40%;
+        margin-top:1em;}
+    header a img{
+            height:100%;
+            max-width: 100%;
+            padding:0;
+            margin: 0 auto;}  
+    
+    
+/*menu details*/
+nav button{
+    font-size: 5vw;
+    background-color: gray;}
+nav button.open:focus{background-color: white;}
+nav ul{display: none;}
+nav ul.open{display:flex;
+    background-color: black;
+flex-direction: column;}
+nav ul {margin:0 auto;
+padding: 0;}
+nav ul.open a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin:0.1em 0;
+    background-color: gray;}
+nav ul a:hover{background-color: rgb(120, 17, 6);}
+
+/*The main and inner sections*/
+main{background-color: rgba(84, 84, 84, 0.607);
+height: fit-content;}
+.heroImage,
+.news,
+.events,
+.weather,
+.join,
+.comSpot1,
+.comSpot2,  
+.comSpot3{text-align:center;
+    border:2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    margin:1em;}
+
+
+/*Footer details*/
+footer{
+    height:fit-content;
+    margin:0 auto;
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:repeat(2,auto);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    background: grey;}
+footer section{
+    text-align: center;
+    margin:0 auto;
+    grid-row:1;
+    grid-column:2;}
+footer section h3{margin: 0;}
+footer section p{margin: 0;}
+footer section a {cursor: pointer;}
+footer img{    
+    margin:auto;
+    width:50%;
+    grid-row:1;}
+.bottom{
+    text-align: center;
+    margin:1px 20% 1px 20%;
+    grid-row: 2;
+    grid-column: 1/3;}
