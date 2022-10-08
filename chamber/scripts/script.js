@@ -12,10 +12,12 @@ x.onclick = toggleMenu;
 
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const month =["January", "February", "March", "April", "May","June","July","August","September","October","November","December"]
-const ordinals = ["st","nd","rd","th"]
 var now = new Date();
 let day = weekday[now.getDay()];
 let month2 =month[now.getMonth()];
-let ordinal = ordinals[now.getDay()-1];
+if(now.getDay()== 1){ ordinal ="st"}
+else if (now.getDay()== 2){ ordinal ="nd"}
+else if (now.getDay()== 2){ ordinal ="rd"}
+else{ ordinal ="th"};
 var today= day +" "+ month2 +" "+ now.getDate() + ordinal +" "+ now.getFullYear()
 document.querySelector('#todayIs').textContent = today;
