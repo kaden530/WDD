@@ -142,7 +142,6 @@ main section{text-align:center;
     .events ul{
         border:2px solid black;
         border-radius: 15px;
-        padding:auto;
         margin-left: 1em;
         margin-right:1em;
         text-align:start;
