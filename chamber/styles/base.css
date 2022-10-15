@@ -39,7 +39,7 @@ row-gap: 0;}
         margin:auto 0;
         grid-column:1/3 ;
         grid-row:6 ;}
-    header p {
+    header div {
         place-self: stretch stretch;
         margin:0 auto;
         width: 100%;
@@ -50,6 +50,9 @@ row-gap: 0;}
         grid-row:6;
         background-color: rgba(30, 17, 6, 0.529);
         border:2px solid rgb(0, 0, 0);}
+    header div p{font-size: 1em;
+        margin: 0 auto;
+    width:85%;}
     .linkedin{
         grid-row: 1;
         grid-column: 2;
@@ -68,7 +71,7 @@ row-gap: 0;}
             max-width: 100%;
             padding:0;
             margin: 0 auto;}
-li  {list-style: none;}
+nav li  {list-style: none;}
     
     
 /*menu details*/
@@ -93,18 +96,104 @@ nav ul a:hover{background-color: rgb(120, 17, 6);}
 /*The main and inner sections*/
 main{background-color: rgba(84, 84, 84, 0.607);
 height: fit-content;}
-.heroImage,
-.news,
-.events,
-.weather,
-.join,
-.comSpot1,
-.comSpot2,  
-.comSpot3{text-align:center;
+main h1{  border:2px solid black;
+    border-radius: 15px;
+    background-color: rgba(255, 255, 255, 0.264);}
+main p{    border-radius: 15px;
+    background-color: white;
+    margin:0.5em;
+padding:0.1em}
+main a {color: white;}
+main a:hover{
+    background-color: black;
+    width:100%;
+}
+main section{text-align:center;
     border:2px solid black;
     border-radius: 25px;
-    background-color: white;
+    background-color: rgb(120, 17, 6);
     margin:1em;}
+    .heroImage{text-align:center;
+        background-image: url("../images/RaymondSugarFactory.jfif");
+        background-size: cover;
+    border-radius: 25px;
+    background-color: transparent;
+    position:relative;
+    height:fit-content;
+    margin:0 0.5em;}
+    .heroImage h1{margin:0;
+        border:none;
+    position: absolute;
+    left:10%;
+    right:10%;}
+    .heroImage img {
+    border-radius: 25px;
+    width:100%;
+    margin:0   auto;
+    opacity: 0;}
+    .heroImage button{margin:0;
+    color: #eee;
+    position: absolute;
+    bottom:7%;
+    right:5%;
+    font-size: 1.5em;
+    background-color: rgb(120, 17, 6);
+    font-family: 'Lobster', cursive;}
+    .events ul{
+        border:2px solid black;
+        border-radius: 15px;
+        padding:auto;
+        margin-left: 1em;
+        margin-right:1em;
+        text-align:start;
+        background-color: white;
+    }
+
+/*Weather*/
+.weather {
+    width:auto;
+    height:auto;
+    text-align:center;
+    border:2px solid black;
+    border-radius: 25px;
+    background-image:url("");
+    background-size: cover;
+    background-color:transparent;
+    margin:1em;}
+
+    section .weather{
+        font-size: 1.5em;
+        text-align:center;
+        border:2px solid black;
+        border-radius: 25px;
+        color:rgba(255, 255, 255, 0.677);
+        background-color: rgba(63, 63, 63,0.677);
+        margin:1em;
+    padding-left: 1em;
+        padding-right: 1em;}
+        section .weather-part{background-color: transparent;
+        border:none}
+    .location h1{
+        border:none;
+        border-radius: 15px;
+        font-size: 10vw ;
+        color:rgba(255, 255, 255, 0.677);
+        background-color: rgba(63, 63, 63, 0.638);}
+
+    .weather .temp{
+        font-size: 25vw;
+        margin-top:auto;
+        margin-bottom: auto;
+        color:rgba(255, 255, 255, 0.677);}
+
+
+    .join button{
+            color: #eee;
+            margin:0.5em;
+    font-size: 1.5em;
+    background-color: rgba(84, 84, 84, 0.607);
+    font-family: 'Lobster', cursive;}
+
 
 
 /*Footer details*/
