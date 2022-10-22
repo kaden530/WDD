@@ -9,9 +9,9 @@
         <meta name="viewport" content="width=device-width">
         <title>WDD 230: Week 05</title>
         <link rel="stylesheet" href="../styles/normalize.css">
-        <link rel="stylesheet" href="styles/base.css">
-        <link rel="stylesheet" href="styles/medium.css">
-        <link rel="stylesheet" href="styles/large.css">
+        <link rel="stylesheet" href="styles/base.css" >
+        <link rel="stylesheet" href="styles/medium.css" media="(min-width: 37em)" >
+        <link rel="stylesheet" href="styles/large.css" media="(min-width: 60em)" >
     </head>
     <header>
             <a href="https://ca.linkedin.com/" class="linkedin" target="_blank">
@@ -22,7 +22,11 @@
             </a> 
         <div><span id="todayIs"></span>
         <p id="meeting"></p></div>
-        <img src="images/RaymondCoC.png" alt="Raymond CoC Logo">
+        <picture>
+
+            <img src="images/RaymondCoC.webp"
+            alt="Raymond CoC Logo" >
+        </picture>
             <h1 class="title">Raymond</h1>
             <h3 class="title">Chamber of Commerce</h3>
         <nav>
@@ -46,7 +50,12 @@
 <main>
         <section class="heroImage">
             <h1>Welcome to Raymond</h1>
-            <img src="images/RaymondSugarFactory.jfif" alt="Raymond Sugar Factory">
+            <picture class="heroImg">
+                <source media="(max-width:591px )" srcset="images/wdd230-orgsmall.jpg">
+                <source media="(min-width: 592px) and (max-width: 959px)"srcset="images/wdd230-orgmedium.jpg">
+                <source media="(min-width: 960px)" srcset="images/wdd230-orglarge.jpg">
+                <img src="images/wdd230-orgsmall.jpg" alt="WDD 230 Students">
+            </picture>
         <button><a href="#" target="_blank" >Become a Member</a></button>
         </section>
 
@@ -74,6 +83,13 @@
                     <div class="temp">
                     <span class="numb">_</span>
                     <span class="deg">°</span>C
+                  </div>
+                  <div class="details">
+                    <p>Feels like</p>
+                    <div class="temp">
+                      <span class="numb-2">_</span>
+                      <span class="deg">°</span>C
+                    </div>
                   </div>
                   <div class="weather">_ _</div>
                 </section>

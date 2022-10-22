@@ -67,40 +67,40 @@ document.querySelector('#todayIs').textContent = today};
          const {temp, feels_like, humidity} = info.main;
      
        if(id == 800 && h >7 && h <19 ){
-        wImg.style.backgroundImage = "url('images/sun.jpg')";
+        wImg.style.backgroundImage = "url('images/sunlarge.jpg')";
         wImg.alt ="sunny";
          }else if(id == 800 && h <7 || h >19){
-             wImg.style.backgroundImage = "url('images/night.jpg')";
+             wImg.style.backgroundImage = "url('images/nightlarge.jpg')";
              wImg.alt ="night";
          }else if(id <= 200 && id <= 232 && h >7 && h <19 ){
-             wImg.style.backgroundImage = "url('images/storm.jpg')";
+             wImg.style.backgroundImage = "url('images/stormlarge.jpg')";
              wImg.alt ="Stormy";
          }else if(id <= 200 && h <7 || h >19){
-             wImg.style.backgroundImage = "url('images/stormynight.jpg')";
+             wImg.style.backgroundImage = "url('images/stormynightlarge.jpg')";
              wImg.alt ="Night Storm";  
          }else if(id >= 600 && id <= 622 && h >7 && h <19 ){
-             wImg.style.backgroundImage = "url('images/snow.jpg')";
+             wImg.style.backgroundImage = "url('images/snowlarge.jpg')";
              wImg.alt ="Snowing";
          }else if(id >= 600 && id <= 622 && h <7 || h >19){
-             wImg.style.backgroundImage = "url('images/snowynight.jpg')";
+             wImg.style.backgroundImage = "url('images/snowynightlarge.jpg')";
              wImg.alt ="Night Snowing";
          }else if(id >= 701 && id <= 781 && h >7 && h <19 ){
-             wImg.style.backgroundImage = "url('images/haze.jpg')";
+             wImg.style.backgroundImage = "url('images/hazelarge.jpg')";
              wImg.alt ="Hazey";
          }else if(id >= 701 && id <= 781 && h <7 || h >19){
-             wImg.style.backgroundImage = "url('images/hazenight.jpg')";
+             wImg.style.backgroundImage = "url('images/hazenightlarge.jpg')";
              wImg.alt ="Hazey Night";
          }else if(id >= 801 && id <= 804 && h >7 && h <19 ){
-            wImg.style.backgroundImage = "url('images/cloudy.jpg')";
+            wImg.style.backgroundImage = "url('images/cloudylarge.jpg')";
             wImg.alt ="Cloudy";
          }else if(id >= 801 && id <= 804 && h <7 || h >19){
-             wImg.style.backgroundImage = "url('images/cloudynight.jpg')";
+             wImg.style.backgroundImage = "url('images/cloudynightlarge.jpg')";
              wImg.alt ="Cloudy Night";
          }else if((id >= 500 && id <= 531 && h >7 && h <19 ) || (id >= 300 && id <= 321)){
-             wImg.style.backgroundImage = "url('images/rain.jpg')";
+             wImg.style.backgroundImage = "url('images/rainlarge.jpg')";
              wImg.alt ="Raining";
          }else if((id >= 500 && id <= 531 && h <7 || h >19) || (id >= 300 && id <= 321)){
-             wImg.style.backgroundImage = "url('images/rainnight.jpg')";
+             wImg.style.backgroundImage = "url('images/rainnightlarge.jpg')";
              wImg.alt ="Night Rain";
          }
          
