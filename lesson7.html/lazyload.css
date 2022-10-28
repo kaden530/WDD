@@ -1,0 +1,13 @@
+data-src{
+    min-width: 50px;
+    min-height: 50px;
+    background-color:gray;
+}
+picture img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+picture img {
+    filter: blur(0em);
+    transition: filter 0.5s;
+  }

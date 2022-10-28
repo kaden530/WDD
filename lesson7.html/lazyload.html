@@ -1,0 +1,52 @@
+<meta charset="UTF-8">
+<link rel="shortcut icon" href="favicon.ico">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Space+Mono&display=swap" rel="stylesheet">
+<meta name="viewport" content="width=device-width">
+<title>WDD 230: Week 07</title>
+<link rel="stylesheet" href="../styles/normalize.css">
+<link rel="stylesheet" href="lazyload.css" >
+</head>
+<main>
+    <h1>Lazy loading.</h1>
+    <picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/cloudylarge.jpg" 
+    alt="Place holder" 
+    width="300" height="400">
+    </picture>
+    <picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/cloudynightlarge.jpg"  
+    alt="Place holder" 
+    width="300" height="400">
+    </picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/hazelarge.jpg" 
+    alt="Place holder" 
+    loading="lazy" 
+    width="300" height="400">
+    </picture>
+    <picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/hazenightlarge.jpg" 
+    alt="Place holder" 
+    loading="lazy" 
+    width="300" height="400">
+    </picture>
+    <picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/nightlarge.jpg" 
+    alt="Place holder" 
+    loading="lazy" width="300" height="400">
+    </picture>
+    <picture>
+    <img src="../chamber/images/RaymondCoC.webp" 
+    data-src="../chamber/images/rainlarge.jpg"
+    alt="Place holder" 
+    loading="lazy" 
+    width="300" height="400">
+    </picture>
+</main>
+<script src="lazyload.js"> </script>
