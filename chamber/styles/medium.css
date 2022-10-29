@@ -140,3 +140,14 @@
         grid-column:1/-1 ;}
             
 }
+
+/*discovery page*/
+#gallery picture img:hover{border-radius: 15px 150px;
+    box-shadow: 0 0 50px rgb(252, 47, 47);}
+#gallery{margin:auto auto;
+    place-content:center;
+    display:flex;
+max-width: 100%;}
+#gallery div{margin-left: auto;
+    margin-right:auto;}
+#gallery div p{max-width: 300px;}
