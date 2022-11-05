@@ -55,9 +55,10 @@
         <label class="loaded">This form was Loaded at <span id ="loaded"></span></label>
         <label>First name*<br><input type="text" name ="fname" required  placeholder="First name"></label><br>
         <label>Last name*<br><input type="text" name ="lname" required  placeholder="Last name"></label><br>
-        <label>Business Position<br><input type="text" name ="title"  placeholder="Title"></label><br>
+        <label>Business Position (only use letters and hyphens)<br><input type="text" name ="title"  placeholder="Title" pattern="[A-Za-z-]{7,}" ></label><br>
         <label>Email*<br><input type="email" name ="email" required  placeholder="myemail@RoChamber.ca"></label><br>
         <label>Phone number*<br> <input type="tel" name ="phone" required  placeholder="403-800-1265"></label><br>
+        <label>Business name*<br><input type="text" name="business" placeholder="Company Inc" required></label>
         <label>Your Business<br><textarea name="description" placeholder="Tell us about your business"></textarea></label><br>
         <label>Membership plan*<br>
         <select name="plan" required>
