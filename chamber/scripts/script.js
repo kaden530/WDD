@@ -1,4 +1,5 @@
 document.querySelector("#last").textContent = `Last Modification: ${document.lastModified}`;
+window.onload = function(){document.querySelector("#loaded").textContent = (now);};
 
 let year = new Date();
 year= year.getFullYear();
@@ -13,6 +14,7 @@ x.onclick = toggleMenu;
 const weekday = ["Sunday","Monday","Tuesday","Wednesday","Thursday","Friday","Saturday"];
 const month =["January", "February", "March", "April", "May","June","July","August","September","October","November","December"]
 var now = new Date();
+
 let day = weekday[now.getDay()];
 let month2 =month[now.getMonth()];
 let h = (now.getHours());
