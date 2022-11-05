@@ -90,12 +90,10 @@
         display:grid;
         grid-template-rows:repeat(6,auto);
         grid-template-columns: repeat(4,1fr);}
-        main p{  font-size: 1.5em;}
+    main p{  font-size: 1.5em;}
     .heroImage{grid-row:1;
         grid-column:1/-1 ;
-        background-image: url("../images/RaymondSugarFactory.jpg");
-    }
-   
+        background-image: url("../images/RaymondSugarFactory.jpg");}
     .news{grid-row: 2;
         grid-column:1/-1;}
     .events{grid-row:6;
@@ -103,8 +101,7 @@
         width: fit-content;
         font-size: 1em;
         margin:1em;}
-
-            .events ul{
+    .events ul{
                 color: black;
                 font-size:1.5em;
                 border:2px solid black;
