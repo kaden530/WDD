@@ -1,0 +1,22 @@
+body{margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    background-color: rgb(48, 48, 48);}
+
+h1{border: 2px black solid;
+    font-size: 5.5em;
+    background-color: white;
+    padding: 3px;
+    margin-top: 0%;}
+
+div{
+    margin-left: auto;
+    margin-right: auto;
+    width: fit-content;}
+
+section{margin-bottom: 1em;
+    border:3px black solid;
+    background-color: grey;
+    font-size: 2em;}
+
+h2{margin:0.5em;}
