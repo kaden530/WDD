@@ -23,8 +23,7 @@ row-gap: 0;}
         max-width: 100%;
         min-width: 60%;
         object-fit: contain;}
-        header picture img{max-width: 100%;}
-
+    header picture img{max-width: 100%;}
     header h1{
         text-align: center;
         margin:0;
@@ -314,3 +313,8 @@ form label input:required:valid{
 /*Thank you page*/
 .thanks{grid-column: 1/-1;
 font-size: 10em;}
+
+/*Directory*/
+.menu{align-items: center;}
+.menu button{background-color: grey;
+}

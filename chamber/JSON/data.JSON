@@ -1,0 +1,65 @@
+{
+    "Company": [
+      {
+        "name": "Tabletop Adventures",
+        "Location": "53A Broadway N, Raymond, AB T0K 2S0",
+        "Type":"Retail",
+        "Hours": "9am-6pm Mon-Sat",
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Snow's Pharmacy",
+        "Location": "53A Broadway N, Raymond, AB T0K 2S0",
+        "Type":"Pharmacy",
+        "Hours": "9am-6pm Mon-Sat",
+        "imageurl": "https://www.google.com/maps/uv?pb=!1s0x536e9829fc0d0e39%3A0xf10da80a42f28ba3!3m1!7e115!4shttps%3A%2F%2Flh5.googleusercontent.com%2Fp%2FAF1QipOkWjee6060rxVHdWs0AISQvwXOsv7wdzqtvlnI%3Dw542-h200-k-no!5ssnows%20pharmacy%20raymond%20-%20Google%20Search!15sCgIgAQ&imagekey=!1e10!2sAF1QipOkWjee6060rxVHdWs0AISQvwXOsv7wdzqtvlnI&hl=en&sa=X&ved=2ahUKEwjxjL71rqT7AhWPADQIHfuYCkwQoip6BAhNEAM"
+      },
+      {
+        "name": "Dairy Queen",
+        "Location": "",
+        "Type":"",
+        "Hours": 3,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Raymond Mercantile",
+        "Location": "",
+        "Type":"",
+        "Hours": 4,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Home Hardware",
+        "Location": "",
+        "Type":"",
+        "Hours": 5,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Subway Raymond",
+        "Location": "",
+        "Type":"",
+        "Hours": 6,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Fas Gas Raymond",
+        "Location": "",
+        "Type":"",
+        "Hours": 7,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Hardy Nutritionals",
+        "Location": "",
+        "Type":"",
+        "Hours": 8,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      },
+      {
+        "name": "Broadway Family Dental",
+        "Location": "",
+        "Type":"",
+        "Hours": 9,
+        "imageurl": "https://media.ldscdn.org/images/media-library/gospel-art/latter-day-prophets/american-prophet-joseph-smith-jr-1178035-gallery.jpg"
+      }]}

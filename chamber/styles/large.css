@@ -99,7 +99,7 @@ text-align: center;}
 
 
 
-main{
+#mainGrid{
                         display:grid;
                         grid-template-rows:repeat(3,1fr);
                         grid-template-columns: repeat(10,1fr);}
@@ -114,7 +114,7 @@ main p{
     height: 100%;
     background-image: url("../images/RaymondSugarFactory.jpg");
     background-size: cover;}
-.heroImg{ 
+.heroImg{
     position: relative;
     object-fit:contain;}
 .heroImg img{
@@ -146,7 +146,7 @@ main p{
     color:rgba(255, 255, 255, 0.677);
     background-color: rgba(63, 63, 63, 0.638);}
 .weather .temp{
-    font-size: 5vw;
+    font-size: 3vw;
     margin-top:auto;
     margin-left: auto;
     color:rgba(255, 255, 255, 0.677);}
