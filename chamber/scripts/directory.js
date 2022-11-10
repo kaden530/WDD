@@ -21,10 +21,9 @@ const cards = document.querySelector('.cards');
   
   async function getComps() {
     const response = await fetch(requestURL);
-    if(response.ok){
-      const data =await response.json();
+    const data =await response.json();
     data.companies.forEach(company=>{displayComps(company)})};
-}
+
 const companies = getComps();
 
   function displayComps(company) {
@@ -36,7 +35,7 @@ const companies = getComps();
   
     // Change the textContent property of the h2 element to contain the company's full name
     h2.textContent = company.name;
-    info.textContent= ` ${company.type} \n ${company.location} \n ${company.hours}`
+    info.textContent= (` ${company.type} \n ${company.location} \n ${company.hours}`);
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     picture.setAttribute('src', company.imageurl);
     picture.setAttribute('alt', company.name);
@@ -48,5 +47,5 @@ const companies = getComps();
     card.appendChild(picture);
     card.appendChild(info)
     // Add/append the existing HTML div with the cards class with the section(card)
-    document.querySelector('div.cards').appendChild(card);}
+    display.appendChild(card);}
     displayComps(data.companies);
