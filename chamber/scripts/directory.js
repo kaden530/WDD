@@ -15,7 +15,7 @@ listbutton.addEventListener("click", () => {
 });
 
 
-const requestURL = './JSON/data.JSON';
+const requestURL = 'https://kaden530.github.io/WDD/chamber/JSON/data.JSON';
 const cards = document.querySelector('.cards');
 
   
