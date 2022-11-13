@@ -21,7 +21,7 @@ const prophets = getprophets();
     h2.textContent = `${prophet.name}  ${prophet.lastname}`;
     Present="Present"
     if(prophet.death== null){prophet.death=`${Present}`}
-    info.textContent= ` ${prophet.birthdate} - ${prophet.death} `
+    info.textContent= ` ${prophet.birthdate} - ${prophet.death}`;
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     portrait.setAttribute('src', prophet.imageurl);
     portrait.setAttribute('alt', 'Portait of ' + prophet.name + ' ' + prophet.lastname + ' - ' + prophet.order + ' Latter-day President.');
