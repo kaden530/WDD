@@ -188,3 +188,27 @@ footer img{
     grid-column: 1/-1;}
 }
 
+
+/*Directory*/
+article.grid section{width:25vw;}
+article.grid p{
+    font-size: 1.2em;}
+article.grid{flex-direction: row;
+flex-wrap: wrap-reverse;}
+
+/*List view*/
+article.list section{height: 15vw;}
+article.list h2{  
+    padding:1px;
+    font-size: 3em;}
+article.list img{
+        display:inline;
+        height:10em;
+        margin-top: 0%;
+    margin-bottom: 0%;}
+article.list .location{display: inline;
+    font-size: 1.5em;}
+article.list .type{
+    font-size: 1.5em;}
+article.list .hours{
+        font-size: 1.5em;}

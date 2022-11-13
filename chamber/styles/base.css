@@ -109,8 +109,7 @@ padding:0.1em}
 main a {color: white;}
 main a:hover{
     background-color: black;
-    width:100%;
-}
+    width:100%;}
 main section{text-align:center;
     border:2px solid black;
     border-radius: 25px;
@@ -283,7 +282,7 @@ input:focus,textarea:focus {
 textarea {
     vertical-align: top;
     height: 5em;} 
-button {border:2px solid black;
+form button {border:2px solid black;
     border-radius: 15px;
   background-color: #000;
     margin-left: 0.5em;
@@ -315,6 +314,67 @@ form label input:required:valid{
 font-size: 10em;}
 
 /*Directory*/
-.menu{align-items: center;}
-.menu button{background-color: grey;
-}
+div.menu{
+    display: flex;
+     place-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: space-evenly;}
+.menu button{
+    font-size: 2em;
+    background-color: grey;}
+
+/*Grid view*/
+article.grid h2{ 
+    margin-top: 0%; 
+    padding:3px;
+    border:2px solid black;
+    font-size: 2em;
+    border-radius: 15px;
+    background-color: white;}
+article.grid{display:flex;
+flex-direction: row;
+flex-wrap: wrap;
+justify-content: space-evenly;}
+article.grid img{
+    width:80%;
+    margin-top: 0%;}
+article.grid section{width:80vw;}
+article.grid p{
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    width:90%;
+    padding:2px}
+
+/*List view*/
+article.list section{display:flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 0%;
+    margin-bottom:0%;
+    border-radius: 0%;
+    width:100%;}
+article.list h2{  
+    padding:3px;
+    border:2px solid black;
+    font-size: 1.2em;
+    border-radius: 15px;
+    background-color: white;
+    border-radius: 0%;}
+article.list{display:flex;
+flex-direction: row;
+flex-wrap: wrap;}
+article.list img{
+    display:none;}
+article.list p{width:fit-content;
+    border-radius: 0%;}
+article.list .location{display: none;}
+article.list .type{
+    font-size: 1em;}
+article.list .hours{
+    font-size: 1em;}

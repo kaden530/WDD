@@ -3,7 +3,6 @@ const listbutton = document.querySelector("#list");
 const display = document.querySelector("article");
 
 
-
 gridbutton.addEventListener("click", () => {
 	display.classList.add("grid");
 	display.classList.remove("list");
@@ -15,7 +14,7 @@ listbutton.addEventListener("click", () => {
 });
 
 
-const requestURL = 'https://kaden530.github.io/WDD/chamber/JSON/data.JSON';
+const requestURL = './JSON/data.JSON';
 const cards = document.querySelector('.cards');
 
   
@@ -31,11 +30,19 @@ const companies = getComps();
     let card = document.createElement('section');
     let h2 = document.createElement('h2');
     let picture = document.createElement('img');
-    let info = document.createElement('p');
-  
+    let label = document.createElement('p');
+	let time =document.createElement('p');
+	let location= document.createElement('p');
+	label.classList.add("type");
+	time.classList.add("hours");
+	location.classList.add("location");
+
     // Change the textContent property of the h2 element to contain the company's full name
     h2.textContent = company.name;
-    info.textContent= (` ${company.type} \n ${company.location} \n ${company.hours}`);
+    label.innerHTML= (`Type: ${company.Type}`);
+	time.innerHTML= (`Hours: ${company.Hours}`);
+	location.innerHTML= (`Location: ${company.Location}`);
+
     // Build the image attributes by using the setAttribute method for the src, alt, and loading attribute values. (Fill in the blank with the appropriate variable).
     picture.setAttribute('src', company.imageurl);
     picture.setAttribute('alt', company.name);
@@ -45,7 +52,10 @@ const companies = getComps();
 	display.appendChild(card);
     card.appendChild(h2);
     card.appendChild(picture);
-    card.appendChild(info)
+    card.appendChild(label);
+	card.appendChild(location);
+	card.appendChild(time);
+
     // Add/append the existing HTML div with the cards class with the section(card)
     display.appendChild(card);}
     displayComps(data.companies);

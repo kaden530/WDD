@@ -145,7 +145,42 @@
 #gallery{margin:auto auto;
     place-content:center;
     display:flex;
-max-width: 100%;}
+    max-width: 100%;}
 #gallery div{margin-left: auto;
     margin-right:auto;}
 #gallery div p{max-width: 300px;}
+
+
+/*Directory*/
+article.grid section{width:40vw;}
+article.grid p{
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    font-size: 1em;
+    font-weight: bold;}
+article.grid{
+    flex-direction: column;
+    max-height:350vh ;}
+
+/*List view*/
+article.list section{height: 15vw;}
+article.list h2{  
+    padding:3px;
+    max-height:100%;
+    font-size: 1.5em;}
+article.list img{
+        display:inline;
+        height:100%;
+        margin-top: 0%;
+    margin-bottom: 0%;}
+article.list .location{display: inline;
+    max-height:100%;
+    font-size: small;}
+article.list .type{
+    max-height:100%;
+    font-size: small;}
+article.list .hours{
+    max-height:100%;
+font-size: small;
+    }
