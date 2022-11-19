@@ -16,7 +16,7 @@ header{
     grid-template-rows: 10vw repeat(5,auto);
     background-color:rgb(120, 17, 6);
     column-gap:1vw;
-row-gap: 0;}
+    row-gap: 0;}
     header picture{
         grid-column:1/1 ;
         grid-row:1/6 ;
@@ -176,17 +176,20 @@ main section{text-align:center;
         border-radius: 15px;
         font-size: 10vw ;
         color:rgba(255, 255, 255, 0.677);
-        background-color: rgba(63, 63, 63, 0.638);}
+        background-color: rgba(63, 63, 63, 0.807);}
 
     .weather .temp{
-        font-size: 25vw;
         margin-top:auto;
         margin-bottom: auto;
-        color:rgba(255, 255, 255, 0.677);}
+        color:rgba(210, 209, 209, 0.774);
+        font-size: 0.7em;
+        background-color: rgba(63, 63, 63, 0.251);}
     .details p {
+        font-size: 1em;
         color:rgba(255, 255, 255, 0.677);
         background-color: rgba(63, 63, 63, 0.638);
     }
+
 
     .join button{
             color: #eee;

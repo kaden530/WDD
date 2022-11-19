@@ -65,7 +65,8 @@ document.querySelector('#todayIs').textContent = today};
          const city = info.name;
          const country = info.sys.country;
          const {description, id} = info.weather[0];
-         const {temp, feels_like, humidity} = info.main;
+         const {temp, feels_like} = info.main;
+         const {speed} = info.wind;
 
        if(id == 800 && h >7 && h <19 ){
         wImg.style.backgroundImage = "url('images/sunlarge.jpg')";
@@ -105,11 +106,11 @@ document.querySelector('#todayIs').textContent = today};
              wImg.alt ="Night Rain";
          }
          
-         weatherPart.querySelector(".temp .numb").innerText = Math.floor(temp);
+         weatherPart.querySelector(".temp .numb").innerText = Math.round(temp);
          weatherPart.querySelector(".weather").innerText = description;
          weatherPart.querySelector(".location span").innerText = `${city}, ${country}`;
-         weatherPart.querySelector(".temp .numb-2").innerText = Math.floor(feels_like);
-         weatherPart.querySelector(".humidity span").innerText = `${humidity}%`;
+         weatherPart.querySelector(".temp .numb-2").innerText = Math.round(feels_like);
+         weatherPart.querySelector(".wind").innerText = Math.round(speed);
     
      }
  

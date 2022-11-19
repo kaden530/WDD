@@ -1,13 +1,15 @@
 @media  only screen and (min-width: 37em){
     header{
         display:grid;
-        width:90vw;
+        width:95vw;
         max-height:30vh;
         grid-template-columns:repeat(5,auto);
         grid-template-rows:repeat(2,auto);
         background-color:rgb(120, 17, 6);
         column-gap:1px;
-        row-gap: 0;}
+        row-gap: 0;
+        margin-bottom: 1.5em;
+}
     header picture{
             grid-column:1 ;
             grid-row:1 ;
