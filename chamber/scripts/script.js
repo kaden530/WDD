@@ -57,17 +57,16 @@ document.querySelector('#todayIs').textContent = today};
 
  
  function fetchData(){
-     fetch(api).then(res => res.json()).then(result => weatherDetails(result)).catch(() =>{
-     });
- }
+     fetch(api).then(res => res.json()).then(result => weatherDetails(result)).catch(() =>{});
+}
  
  function weatherDetails(info){
-   
+        console.log(info);
          const city = info.name;
          const country = info.sys.country;
          const {description, id} = info.weather[0];
          const {temp, feels_like, humidity} = info.main;
-     
+
        if(id == 800 && h >7 && h <19 ){
         wImg.style.backgroundImage = "url('images/sunlarge.jpg')";
         wImg.alt ="sunny";
