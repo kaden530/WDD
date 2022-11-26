@@ -381,3 +381,14 @@ article.list .type{
     font-size: 1em;}
 article.list .hours{
     font-size: 1em;}
+
+/*Contact page*/
+.contact{display:flex;
+    place-content: center;
+flex-wrap: wrap;
+flex-direction: column;}
+.contact div{background-color: white;
+    text-align: center;
+    width: 60%;}
+.contact h2{font-size: 2em;}
+.contact p{font-size: 1.5em;}
