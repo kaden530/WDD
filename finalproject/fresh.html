@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-US">
+    <head>
+        <meta charset="UTF-8">
+        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Space+Mono&display=swap" rel="stylesheet">
+        <meta name="viewport" content="width=device-width">
+        <title>Fresh</title>
+        <link rel="stylesheet" href="../styles/normalize.css">
+        <link rel="stylesheet" href="styles/base.css" >
+        <link rel="stylesheet" href="styles/medium.css" media="(min-width: 37em)" >
+        <link rel="stylesheet" href="styles/large.css" media="(min-width: 60em)" >
+    </head>
+    <header>
+        
+    </header>
+    <nav>
+        <button id="navbtn">&#9776;</button>
+        <ul Id ="menu">
+            <li>
+            <a href="fresh.html" target="_blank"> Fresh</a>
+        </li>
+        <li>
+            <a href="Aboutus.html" target="_blank"> About Us</a>
+        </li>
+        </ul> 
+    </nav>
+    <main>
+
+        The Fresh page contains a form that allows the user to build a specialty drink.
+The form requires the following items: 
+first name,
+email,
+phone, 
+three (3) select inputs that are populated with the available fruit to put into a drink.
+ Available fruit options must only come from this JSON data source: 
+ FRUIT Links to an external site. for full credit consideration.
+and, include an area that allows them to add special instructions if needed.
+
+    <form>
+        <form action="thankyou.html" method="get" target="_blank">
+            <h2> Make something delicious.</h2>
+            <fieldset>
+                <label>First name*<br><input type="text" name ="fname" required  placeholder="First name"></label><br>
+                <label>Email*<br><input type="email" name ="email" required  placeholder="smoothies@Fresh.ca"></label><br>
+                <label>Phone number*<br> <input type="tel" name ="phone" required  placeholder="403-800-1265"></label><br>
+                <select name="ingredients" class="fruit" required>
+                    <option>Ingredients</option>
+
+                </select>
+                <br>
+                <select name="ingredients" class="fruit2" required>
+                    <option>Ingredients</option>
+                   
+                </select>
+                <br>
+                <select name="ingredients" class="fruit3" placeholder="403-800-1265" required>
+                    <option>Ingredients</option>
+                </select>
+            <br>
+            <button><input type="submit"value="Build" ></button>
+        </fieldset>
+    </form>
+    </main>
+    <footer>
+
+    </footer>
+</html>
+<script src="./scripts/fresh.js"></script>

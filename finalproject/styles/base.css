@@ -1,0 +1,40 @@
+body{background-color: beige;}
+
+
+header{background-color: brown;
+    text-align: center;
+}
+nav button{
+    font-size: 5vw;
+    background-color: gray;}
+nav button.open:focus{background-color: white;}
+nav ul{display: none;}
+nav ul.open{display:flex;
+    background-color: black;
+flex-direction: column;}
+nav ul {margin:0 auto;
+padding: 0;}
+nav ul.open a{
+    display:block;
+    text-decoration: none;
+    color: white;
+    margin:0.1em 0;
+    background-color: gray;}
+nav ul a:hover{background-color: rgb(120, 17, 6);}
+
+
+main{background-color: aquamarine;
+}
+
+.weather{
+    border: 2px solid black;
+    background-color: aqua;
+    width:60vw;
+    text-align: center;
+}
+
+
+footer{
+    text-align: center;
+    background-color: White;
+}
