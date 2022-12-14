@@ -82,7 +82,7 @@ document.querySelector("button").addEventListener("click", recipe);
 
 /*These funtions take the users info, validate it and return it to be displayed. */
 function recipe(){
-  document.getElementById("userName").textContent = document.getElementById("fname").value
+  document.getElementById("userName").textContent = document.getElementById("fname").value +"'s";
   document.getElementById("specialInst").innerHTML = document.getElementById("instructions").value
   document.querySelector(".userEmail").textContent = document.getElementById("email").value
   document.querySelector(".userPhone").innerHTML = document.getElementById("phone").value
@@ -93,15 +93,21 @@ function recipe(){
   let ing2= Fruit[ingredient2];
   let ingredient3=check3();
   let ing3= Fruit[ingredient3];
-  console.log(ing1);
   let ingrtt = (`${ing1.name} + ${ing2.name} + ${ing3.name}`);
   let carbt =(+ing1.carbohydrates) + (+ing2.carbohydrates) + (+ing3.carbohydrates);
-  console.log(carbt);
   let prott = (+ing1.protein) + (+ing2.protein) + (+ing3.protein);
-  console.log(prott);
   let fatst = (+ing1.fat) + (+ing2.fat) + (+ing3.fat);
   let calort = (+ing1.calories) + (+ing2.calories) + (+ing3.calories);
   let sugart = (+ing1.sugar) + (+ing2.sugar) + (+ing3.sugar);
+carbt=carbt.toFixed(1)
+prott =prott.toFixed(1)
+fatst =fatst.toFixed(1)
+calort =calort.toFixed(1)
+sugart = sugart.toFixed(1)
+console.log(prott);
+console.log(carbt);
+
+
   document.getElementById("title").textContent = ingrtt;
   document.getElementById("carbohydrates").textContent = carbt;
   document.getElementById("Protiens").textContent = prott;

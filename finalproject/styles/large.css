@@ -1,11 +1,42 @@
 @media  only screen and (min-width: 60em){
+    .facebook img{width:75px;}
+    .linkedin img{max-width:75px;
+            right:76px;}
+    .instagram img{width:75px;
+            right:150px;}
+    footer{max-height:18vw;}
+    footer h3 {font-size: 2.5em;}
+    
+    /*home*/
+    .home p{font-size: 2em;}
+    .weather{height:50vw;}
+    .weather p{font-size: 1.5em;
+        margin:0.5em 0;}
+    .weather img{width: 10vw;}
+    .weather figcaption{font-size: 1.5em;}
+    .weather h2{font-size: 3em;
+        margin-bottom: 4vw;}
+    
+    
+    /*fresh*/
+    main.fresh, .fresh section {width:80vw;}
+    div.cards h2{font-size: 1.5em;}
+    .form{width:85%;}
+    .fresh p{ font-size: 1.5em;}
+    .fresh label{font-size: 2.5em;}
+    .fresh input{font-size: 0.6em;}
+    #ingredients div label{
+        margin:0.1em 1em 0.1em 0;
+        font-size: 2em;}
+    #ingredients div input{    margin:0.1em;
+            font-size: 1em;}
+
+    .fresh h2{font-size:3em;}/**/
 
 
-body{background-color: beige;}
-header{width:100vw;}
-main{background-color: aquamarine;}
-.weather{background-color: aqua;
-width:60vw;
-text-align: center;}
-footer{background-color: chartreuse;}
+
+
+    /*about us*/
+    .about h2{font-size: 3em;}
+    .about p{margin: 0%; font-size: 2em;}
 }

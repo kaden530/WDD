@@ -1,10 +1,51 @@
 @media  only screen and (min-width: 37em){
+.facebook img{width:50px;}
+.linkedin img{max-width:50px;
+        right:51px;}
+.instagram img{width:50px;
+        right:100px;}
+nav{font-size: 1.5em;}
+footer{max-height:5vw;}
+footer h3 {margin:0%;
+        font-size: 2em;
+        margin-left: 5%;
+        text-align: center;}
+footer div{
+        max-width: 100%;
+        flex-direction: row;
+        flex-wrap: wrap;}
+footer p {
+        margin:0 2em;
+        font-size: 1.3em;}
+
+/*home*/
+.home p{font-size: 1.5em;}
+.weather{height:50vw;}
+.weather p{font-size: 1.2em;
+margin:0.25em 0;}
+.weather h2{font-size: 2em;}
 
 
-body{background-color: beige;}
-header{width:100vw;}
-main{background-color: aquamarine;}
-.weather{background-color: aqua;
-width:60vw;
-text-align: center;}
-footer{background-color: blue;}}
+/*fresh*/
+.fresh p{ font-size: 1.5em;}
+.fresh label{font-size: 1.5em;}
+.fresh input{font-size: 1em;}
+#ingredients div label{
+    margin:0.1em 1em 0.1em 0;
+    font-size: 3vw;}
+#ingredients div input{    margin:0.1em;
+        font-size: 3vw;}
+button.fresh{
+    width:fit-content;
+    font-size: 2.5em;}
+.fresh h2{font-size:2em;}
+#instructions{font-size: 1.5em;}
+.results h2{font-size: 3.5em;
+margin: 0%;}
+.results p{padding:0%;}
+.cards h2{font-size: 1.5em;}
+/*about us*/
+.about h2{font-size: 2.5em;}
+.about p{margin: 0%; font-size: 1.5em;}
+
+}
