@@ -2,10 +2,10 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="../chamber/images/Watermelon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nerko+One&family=Space+Mono&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width">
         <title>About us</title>
         <link rel="stylesheet" href="../styles/normalize.css">
@@ -14,16 +14,58 @@
         <link rel="stylesheet" href="styles/large.css" media="(min-width: 60em)" >
     </head>
     <header>
-        
+        <h1>About us</h1>
+        <a href="https://ca.linkedin.com/" class="linkedin" target="_blank">
+            <img src="../chamber/images/linkedin.png" alt="linkedin" >
+           </a>
+       <a href="https://www.facebook.com/" class="facebook" target="_blank">
+           <img src="../chamber/images/facebook.png" alt="Facebook">
+       </a> 
+       <a href="https://www.instagram.com/accounts/login/" class="instagram" target="_blank">
+        <img src="../chamber/images/Instagram.webp"></a>
+        <nav>
+            <button id="navbtn">&#9776;</button>
+            <ul Id ="menu">
+                <li>
+                <a href="fresh.html" target="_blank"> Fresh</a>
+            </li>
+            <li>
+                <a href="Aboutus.html" target="_blank"> About Us</a>
+            </li>
+            </ul> 
+        </nav>
     </header>
     <main>
-        The About Us page provides historical information about the company and area plus contact information, 
-        and a Google Map and other relevant content.
-        <p class="history"></p>
-        <p class="contact"></p>
-        <p class="find"></p>
+        <div class="history">
+            <h2>Get to know the Fresh Family</h2>
+            <p>Established in 2007 We bought the shack for it's ideal locationn we had no idea how beautiful it would be. fifteen years later we have an amazing assortment of thirtie-nine different fruit.
+                 The fresh family includes fifteen wonderful memvers who work dilligently to give you the best smoothie experience.
+                With an affordable menu we pride ourselves on our family atmosphere. We love to swim and with our beachside location we are the perfect place to re-energize on a hot day.</p>
+        </div>
+        <div class="find">
+            <h2>where to find us</h2>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d106928.86080965448!2d-117.287802!3d33.12151955!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80dc73453f3bee59%3A0xa4cb5592fcf65d2f!2sCarlsbad%2C%20CA%2C%20USA!5e0!3m2!1sen!2sca!4v1671050084189!5m2!1sen!2sca" loading="lazy"></iframe>
+            <br><a href="https://www.google.com/maps/place/Carlsbad,+CA,+USA/@33.1214408,-117.4282318,11z/data=!3m1!4b1!4m5!3m4!1s0x80dc73453f3bee59:0xa4cb5592fcf65d2f!8m2!3d33.1580933!4d-117.3505939">Address: 1 beach ave N Carlsbad CA</a>
+        </div>
+        <div class="contact">
+            <h2>Contact us.</h2>
+            <div>
+                <p>Email: Smoothies@Fresh.com </p> 
+                <p> Ph: (403)-378-5834</p>
+                <p>Address: 1 beach ave N Carlsbad CA</p>
+                </div>
+            <p></p>
+        </div>
     </main>
     <footer>
-
+        <h3> contact </h3>
+        <div>
+        <p>Email: Smoothies@Fresh.com </p> 
+        <p> Ph: (403)-378-5834</p>
+        <p>Address: 1 beach ave N Carlsbad CA</p>
+        <p>You've made <span id="drinkNumber">0</span> drinks.</p>
+        </div>
+        
     </footer>
 </html>
+<script src="./scripts/fresh.js"></script>

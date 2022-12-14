@@ -1,7 +1,11 @@
+@media  only screen and (min-width: 60em){
+
+
 body{background-color: beige;}
-header{}
+header{width:100vw;}
 main{background-color: aquamarine;}
 .weather{background-color: aqua;
 width:60vw;
 text-align: center;}
-footer{}
+footer{background-color: chartreuse;}
+}

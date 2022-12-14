@@ -2,10 +2,10 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="../chamber/images/Watermelon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nerko+One&family=Space+Mono&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width">
         <title>Fresh</title>
         <link rel="stylesheet" href="../styles/normalize.css">
@@ -14,58 +14,312 @@
         <link rel="stylesheet" href="styles/large.css" media="(min-width: 60em)" >
     </head>
     <header>
-        
-    </header>
-    <nav>
-        <button id="navbtn">&#9776;</button>
-        <ul Id ="menu">
+        <h1>Get Creative</h1>
+        <a href="https://ca.linkedin.com/" class="linkedin" target="_blank">
+            <img src="../chamber/images/linkedin.png" alt="linkedin" >
+           </a>
+       <a href="https://www.facebook.com/" class="facebook" target="_blank">
+           <img src="../chamber/images/facebook.png" alt="Facebook">
+       </a> 
+       <a href="https://www.instagram.com/accounts/login/" class="instagram" target="_blank">
+        <img src="../chamber/images/Instagram.webp"></a>
+        <nav>
+            <button id="navbtn">&#9776;</button>
+            <ul Id ="menu">
+                <li>
+                <a href="fresh.html" target="_blank"> Fresh</a>
+            </li>
             <li>
-            <a href="fresh.html" target="_blank"> Fresh</a>
-        </li>
-        <li>
-            <a href="Aboutus.html" target="_blank"> About Us</a>
-        </li>
-        </ul> 
-    </nav>
-    <main>
+                <a href="Aboutus.html" target="_blank"> About Us</a>
+            </li>
+            </ul> 
+        </nav>
+    </header>
+    <main class="fresh">
+    <section>
+        <h2> Make something deliciously Fresh!</h2>
+            <fieldset class="form">
+                <label>First name*<br><input id="fname" type="text" name ="fname"   placeholder="First name"></label><br>
+                <label>Email*<br><input id="email" type="email" name ="email"   placeholder="smoothies@Fresh.ca"></label><br>
+                <label>Phone number*<br> <input id="phone" type="tel" name ="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"  placeholder="403-800-1265"></label><br>
+                <fieldset id="ingredients"><br>
+                    <div class="column1">
+                        <input name="fruit1" id="Apple" type="radio">
+                        <label >Apple</label><br>
+                        <input name="fruit1" id="Apricot" type="radio">
+                        <label >Apricot</label><br>
+                        <input name="fruit1" id="Avocado" type="radio">
+                        <label >Avocado</label><br>
+                        <input name="fruit1"  id="Banana" type="radio">
+                        <label >Banana</label><br>
+                        <input name="fruit1"  id="Blackberry" type="radio">
+                        <label >Blackberry</label><br>
+                        <input name="fruit1"  id="Blueberry" type="radio">
+                        <label >Blueberry</label><br>
+                        <input name="fruit1"  id="Cherry" type="radio">
+                        <label >Cherry</label><br>
+                        <input name="fruit1"  id="Dragonfruit" type="radio">
+                        <label >Dragonfruit</label><br>
+                        <input name="fruit1"  id="Durian" type="radio">
+                        <label >Durian</label><br>
+                        <input name="fruit1"  id="Feijoa" type="radio">
+                        <label >Feijoa</label><br>
+                        <input name="fruit1"  id="Fig" type="radio">
+                        <label >Fig</label><br>
+                        <input name="fruit1"  id="Gooseberry" type="radio">
+                        <label >Gooseberry</label><br>
+                        <input name="fruit1"  id="Grape" type="radio">
+                        <label >Grape</label><br>
+                        <input name="fruit1"  id="Grapes" type="radio">
+                        <label >Grapes</label><br>
+                        <input name="fruit1"  id="GreenApple" type="radio">
+                        <label >GreenApple</label><br>
+                        <input name="fruit1"  id="Guava" type="radio">
+                        <label >Guava</label><br>
+                        <input name="fruit1"  id="Kiwi" type="radio">
+                        <label >Kiwi</label><br>
+                        <input name="fruit1"  id="Kiwifruit" type="radio">
+                        <label >Kiwifruit</label><br>
+                        <input name="fruit1"  id="Lemon" type="radio">
+                        <label >Lemon</label><br>
+                        <input name="fruit1"  id="Lime" type="radio">
+                        <label >Lime</label><br>
+                        <input name="fruit1"  id="Lingonberry" type="radio">
+                        <label >Lingonberry</label><br>
+                        <input name="fruit1"  id="Lychee" type="radio">
+                        <label >Lychee</label><br>
+                        <input name="fruit1"  id="Mango" type="radio">
+                        <label >Mango</label><br>
+                        <input name="fruit1"  id="Melon" type="radio">
+                        <label >Melon</label><br>
+                        <input name="fruit1"  id="Morus" type="radio">
+                        <label >Morus</label><br>
+                        <input name="fruit1"  id="Orange" type="radio">
+                        <label >Orange</label><br>
+                        <input name="fruit1"  id="Papaya" type="radio">
+                        <label >Papaya</label><br>
+                        <input name="fruit1"  id="Passionfruit" type="radio">
+                        <label >Passionfruit</label><br>
+                        <input name="fruit1"  id="Pear" type="radio">
+                        <label >Pear</label><br>
+                        <input name="fruit1"  id="Persimmon" type="radio">
+                        <label >Persimmon</label><br>
+                        <input name="fruit1"  id="Pineapple" type="radio">
+                        <label >Pineapple</label><br>
+                        <input name="fruit1"  id="Pitahaya" type="radio">
+                        <label >Pitahaya</label><br>
+                        <input name="fruit1"  id="Plum" type="radio">
+                        <label >Plum</label><br>
+                        <input name="fruit1"  id="Pomegranate" type="radio">
+                        <label >Pomegranate</label><br>
+                        <input name="fruit1"  id="Raspberry" type="radio">
+                        <label >Raspberry</label><br>
+                        <input name="fruit1"  id="Strawberry" type="radio">
+                        <label >Strawberry</label><br>
+                        <input name="fruit1"  id="Tangerine" type="radio">
+                        <label >Tangerine</label><br>
+                        <input name="fruit1"  id="Tomato" type="radio">
+                        <label >Tomato</label><br>
+                        <input name="fruit1"  id="Watermelon" type="radio">
+                        <label >Watermelon</label><br>
+                    </div>
+                    <div class="column2">
+                        <input name="fruit2" id="Apple" type="radio">
+                        <label >Apple</label><br>
+                        <input name="fruit2" id="Apricot" type="radio">
+                        <label >Apricot</label><br>
+                        <input name="fruit2" id="Avocado" type="radio">
+                        <label >Avocado</label><br>
+                        <input name="fruit2"  id="Banana" type="radio">
+                        <label >Banana</label><br>
+                        <input name="fruit2"  id="Blackberry" type="radio">
+                        <label >Blackberry</label><br>
+                        <input name="fruit2"  id="Blueberry" type="radio">
+                        <label >Blueberry</label><br>
+                        <input name="fruit2"  id="Cherry" type="radio">
+                        <label >Cherry</label><br>
+                        <input name="fruit2"  id="Dragonfruit" type="radio">
+                        <label >Dragonfruit</label><br>
+                        <input name="fruit2"  id="Durian" type="radio">
+                        <label >Durian</label><br>
+                        <input name="fruit2"  id="Feijoa" type="radio">
+                        <label >Feijoa</label><br>
+                        <input name="fruit2"  id="Fig" type="radio">
+                        <label >Fig</label><br>
+                        <input name="fruit2"  id="Gooseberry" type="radio">
+                        <label >Gooseberry</label><br>
+                        <input name="fruit2"  id="Grape" type="radio">
+                        <label >Grape</label><br>
+                        <input name="fruit2"  id="Grapes" type="radio">
+                        <label >Grapes</label><br>
+                        <input name="fruit2"  id="GreenApple" type="radio">
+                        <label >GreenApple</label><br>
+                        <input name="fruit2"  id="Guava" type="radio">
+                        <label >Guava</label><br>
+                        <input name="fruit2"  id="Kiwi" type="radio">
+                        <label >Kiwi</label><br>
+                        <input name="fruit2"  id="Kiwifruit" type="radio">
+                        <label >Kiwifruit</label><br>
+                        <input name="fruit2"  id="Lemon" type="radio">
+                        <label >Lemon</label><br>
+                        <input name="fruit2"  id="Lime" type="radio">
+                        <label >Lime</label><br>
+                        <input name="fruit2"  id="Lingonberry" type="radio">
+                        <label >Lingonberry</label><br>
+                        <input name="fruit2"  id="Lychee" type="radio">
+                        <label >Lychee</label><br>
+                        <input name="fruit2"  id="Mango" type="radio">
+                        <label >Mango</label><br>
+                        <input name="fruit2"  id="Melon" type="radio">
+                        <label >Melon</label><br>
+                        <input name="fruit2"  id="Morus" type="radio">
+                        <label >Morus</label><br>
+                        <input name="fruit2"  id="Orange" type="radio">
+                        <label >Orange</label><br>
+                        <input name="fruit2"  id="Papaya" type="radio">
+                        <label >Papaya</label><br>
+                        <input name="fruit2"  id="Passionfruit" type="radio">
+                        <label >Passionfruit</label><br>
+                        <input name="fruit2"  id="Pear" type="radio">
+                        <label >Pear</label><br>
+                        <input name="fruit2"  id="Persimmon" type="radio">
+                        <label >Persimmon</label><br>
+                        <input name="fruit2"  id="Pineapple" type="radio">
+                        <label >Pineapple</label><br>
+                        <input name="fruit2"  id="Pitahaya" type="radio">
+                        <label >Pitahaya</label><br>
+                        <input name="fruit2"  id="Plum" type="radio">
+                        <label >Plum</label><br>
+                        <input name="fruit2"  id="Pomegranate" type="radio">
+                        <label >Pomegranate</label><br>
+                        <input name="fruit2"  id="Raspberry" type="radio">
+                        <label >Raspberry</label><br>
+                        <input name="fruit2"  id="Strawberry" type="radio">
+                        <label >Strawberry</label><br>
+                        <input name="fruit2"  id="Tangerine" type="radio">
+                        <label >Tangerine</label><br>
+                        <input name="fruit2"  id="Tomato" type="radio">
+                        <label >Tomato</label><br>
+                        <input name="fruit2"  id="Watermelon" type="radio">
+                        <label >Watermelon</label><br>
+                    </div>
+                    <div class="column3">
+                        <input name="fruit3" id="Apple" type="radio">
+                        <label >Apple</label><br>
+                        <input name="fruit3" id="Apricot" type="radio">
+                        <label >Apricot</label><br>
+                        <input name="fruit3" id="Avocado" type="radio">
+                        <label >Avocado</label><br>
+                        <input name="fruit3"  id="Banana" type="radio">
+                        <label >Banana</label><br>
+                        <input name="fruit3"  id="Blackberry" type="radio">
+                        <label >Blackberry</label><br>
+                        <input name="fruit3"  id="Blueberry" type="radio">
+                        <label >Blueberry</label><br>
+                        <input name="fruit3"  id="Cherry" type="radio">
+                        <label >Cherry</label><br>
+                        <input name="fruit3"  id="Dragonfruit" type="radio">
+                        <label >Dragonfruit</label><br>
+                        <input name="fruit3"  id="Durian" type="radio">
+                        <label >Durian</label><br>
+                        <input name="fruit3"  id="Feijoa" type="radio">
+                        <label >Feijoa</label><br>
+                        <input name="fruit3"  id="Fig" type="radio">
+                        <label >Fig</label><br>
+                        <input name="fruit3"  id="Gooseberry" type="radio">
+                        <label >Gooseberry</label><br>
+                        <input name="fruit3"  id="Grape" type="radio">
+                        <label >Grape</label><br>
+                        <input name="fruit3"  id="Grapes" type="radio">
+                        <label >Grapes</label><br>
+                        <input name="fruit3"  id="GreenApple" type="radio">
+                        <label >GreenApple</label><br>
+                        <input name="fruit3"  id="Guava" type="radio">
+                        <label >Guava</label><br>
+                        <input name="fruit3"  id="Kiwi" type="radio">
+                        <label >Kiwi</label><br>
+                        <input name="fruit3"  id="Kiwifruit" type="radio">
+                        <label >Kiwifruit</label><br>
+                        <input name="fruit3"  id="Lemon" type="radio">
+                        <label >Lemon</label><br>
+                        <input name="fruit3"  id="Lime" type="radio">
+                        <label >Lime</label><br>
+                        <input name="fruit3"  id="Lingonberry" type="radio">
+                        <label >Lingonberry</label><br>
+                        <input name="fruit3"  id="Lychee" type="radio">
+                        <label >Lychee</label><br>
+                        <input name="fruit3"  id="Mango" type="radio">
+                        <label >Mango</label><br>
+                        <input name="fruit3"  id="Melon" type="radio">
+                        <label >Melon</label><br>
+                        <input name="fruit3"  id="Morus" type="radio">
+                        <label >Morus</label><br>
+                        <input name="fruit3"  id="Orange" type="radio">
+                        <label >Orange</label><br>
+                        <input name="fruit3"  id="Papaya" type="radio">
+                        <label >Papaya</label><br>
+                        <input name="fruit3"  id="Passionfruit" type="radio">
+                        <label >Passionfruit</label><br>
+                        <input name="fruit3"  id="Pear" type="radio">
+                        <label >Pear</label><br>
+                        <input name="fruit3"  id="Persimmon" type="radio">
+                        <label >Persimmon</label><br>
+                        <input name="fruit3"  id="Pineapple" type="radio">
+                        <label >Pineapple</label><br>
+                        <input name="fruit3"  id="Pitahaya" type="radio">
+                        <label >Pitahaya</label><br>
+                        <input name="fruit3"  id="Plum" type="radio">
+                        <label >Plum</label><br>
+                        <input name="fruit3"  id="Pomegranate" type="radio">
+                        <label >Pomegranate</label><br>
+                        <input name="fruit3"  id="Raspberry" type="radio">
+                        <label >Raspberry</label><br>
+                        <input name="fruit3"  id="Strawberry" type="radio">
+                        <label >Strawberry</label><br>
+                        <input name="fruit3"  id="Tangerine" type="radio">
+                        <label >Tangerine</label><br>
+                        <input name="fruit3"  id="Tomato" type="radio">
+                        <label >Tomato</label><br>
+                        <input name="fruit3"  id="Watermelon" type="radio">
+                        <label >Watermelon</label><br>
+                    </div>
 
-        The Fresh page contains a form that allows the user to build a specialty drink.
-The form requires the following items: 
-first name,
-email,
-phone, 
-three (3) select inputs that are populated with the available fruit to put into a drink.
- Available fruit options must only come from this JSON data source: 
- FRUIT Links to an external site. for full credit consideration.
-and, include an area that allows them to add special instructions if needed.
 
-    <form>
-        <form action="thankyou.html" method="get" target="_blank">
-            <h2> Make something delicious.</h2>
-            <fieldset>
-                <label>First name*<br><input type="text" name ="fname" required  placeholder="First name"></label><br>
-                <label>Email*<br><input type="email" name ="email" required  placeholder="smoothies@Fresh.ca"></label><br>
-                <label>Phone number*<br> <input type="tel" name ="phone" required  placeholder="403-800-1265"></label><br>
-                <select name="ingredients" class="fruit" required>
-                    <option>Ingredients</option>
 
-                </select>
-                <br>
-                <select name="ingredients" class="fruit2" required>
-                    <option>Ingredients</option>
-                   
-                </select>
-                <br>
-                <select name="ingredients" class="fruit3" placeholder="403-800-1265" required>
-                    <option>Ingredients</option>
-                </select>
-            <br>
-            <button><input type="submit"value="Build" ></button>
+
+                </fieldset>
+                <textarea id="instructions" type="text"  placeholder="Special instructions"></textarea><br>
         </fieldset>
-    </form>
+        <button class="fresh"type= "button"  onclick="recipe()" >Build</button>
+    </section>
+    <div class=" results">
+        <h2><span id="userName">Your</span> Recipes  </h2>
+        <p class="contactinfo">Phone:<span class="userPhone"></span>    Email:<span class="userEmail"></span></p>
+        <p>
+            Instructions: <span id="specialInst"></span><br>
+            You've made <span id="drinkNumber">0</span> drinks.<br>
+            fruit: <span id="title">None</span><br>
+            Carbs: <span id="carbohydrates">0</span>g.<br>
+            Protein: <span id="Protiens">0</span>g.<br>
+            Fat: <span id="Fats">0</span>g.<br>
+            Calories:<span id="Calories">0</span>g.<br>
+            Sugar: <span id="Sugar">0</span>g.<br>
+        </p>
+    </div>
+    <h2>Ingredient information</h2>
+<div class="cardDisplay">
+
+</div>
     </main>
     <footer>
-
-    </footer>
+        <h3> contact </h3>
+        <div>
+        <p>Email: Smoothies@Fresh.com </p> 
+        <p> Ph: (403)-378-5834</p>
+        <p>Address: 1 beach ave N Carlsbad CA</p>
+        <p>You've made <span id="drinkNumber">0</span> drinks.</p>
+        </div>
+        
+            </footer>
 </html>
 <script src="./scripts/fresh.js"></script>

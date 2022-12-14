@@ -2,10 +2,10 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
-        <link rel="shortcut icon" href="favicon.ico">
+        <link rel="shortcut icon" href="../chamber/images/Watermelon.ico">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Lobster&family=Rubik+Dirt&family=Space+Mono&display=swap" rel="stylesheet">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Nerko+One&family=Space+Mono&display=swap" rel="stylesheet">
         <meta name="viewport" content="width=device-width">
         <title>Home</title>
         <link rel="stylesheet" href="../styles/normalize.css">
@@ -15,31 +15,36 @@
     </head>
     <header>
         <h1>Fresh foods</h1>
-        
-    </header>
-    <nav>
-        <button id="navbtn">&#9776;</button>
-        <ul Id ="menu">
+        <a href="https://ca.linkedin.com/" class="linkedin" target="_blank">
+            <img src="../chamber/images/linkedin.png" alt="linkedin" >
+           </a>
+       <a href="https://www.facebook.com/" class="facebook" target="_blank">
+           <img src="../chamber/images/facebook.png" alt="Facebook">
+       </a> 
+       <a href="https://www.instagram.com/accounts/login/" class="instagram" target="_blank">
+        <img src="../chamber/images/Instagram.webp"></a>
+        <nav>
+            <button id="navbtn">&#9776;</button>
+            <ul Id ="menu">
+                <li>
+                <a href="fresh.html" target="_blank"> Fresh</a>
+            </li>
             <li>
-            <a href="fresh.html" target="_blank"> Fresh</a>
-        </li>
-        <li>
-            <a href="Aboutus.html" target="_blank"> About Us</a>
-        </li>
-        </ul> 
-    </nav>
-    <main>
-        Summary information about any coastal area or areas in the southern California coast of your choosing.
-        <br>
-A call to action to make your own fruit drink mix. This link can link to the 📄Fresh page.
-<br>
-Social media links (at least three) (no account necessary).
-<br>
-Include an information card about the total number of specialty drinks that the current user has submitted from the Fresh page form. This information should just be stored locally, with the user's agent (browser).
-
-
+                <a href="Aboutus.html" target="_blank"> About Us</a>
+            </li>
+            </ul> 
+        </nav>
+    </header>
+    <main class="home">
+       <p>Welcome! To our Little slice of Paradise. We serve nothing but good times and the best drinks!
+         With lots of outdoor seating along the beach the Ocean breeze is sure to help you redefine relaxation.
+         Whether you choos our beachside seating or our indoor booths you're sure too work on your tan with our 
+         large open windows bringing lots of natural light into our perfect shack.
+    <br><br>
+Visit our <a href="fresh.html" target="_blank">Fresh</a> page to design your perfect drink!
+</p>
         <section class="weather">
-            <h1>Carlsbad CA</h1>
+            <h2>Carlsbad CA</h2>
             <p> <span id="current-temp"></span> &deg;F</p>
             <figure>
             <img src="" alt="" id="weather-icon" />
@@ -54,12 +59,13 @@ Include an information card about the total number of specialty drinks that the 
     </main>
     <footer>
 <h3> contact </h3>
-<p>Email:
-    <br>
-    Ph:
-    <br>
-    Address:
-</p>
+<div>
+<p>Email: Smoothies@Fresh.com </p> 
+<p> Ph: (403)-378-5834</p>
+<p>Address: 1 beach ave N Carlsbad CA</p>
+<p>You've made <span id="drinkNumber">0</span> drinks.</p>
+</div>
+
     </footer>
 </html>
 <script src="./scripts/fresh.js"></script>
