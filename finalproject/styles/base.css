@@ -90,8 +90,6 @@ footer p {
     margin:0%;
     margin-left: 5%;
     padding:0px;}
-
-
 p{padding: 1em;
     font-family: 'Lato', sans-serif;}
 h1, h2, h3{font-family: 'Nerko One', cursive;
@@ -138,14 +136,12 @@ margin-left: 10%;}
 
 /*Fresh page styles*/
 main.fresh{
-    width:90vw;
-}
+    width:90vw;}
 .cards{width:150px;
 background-color: beige;
 margin:0;
 text-align: center;
 padding-bottom:0.5em;}
-
 .form{
     display: flex;
     flex-direction: column;
