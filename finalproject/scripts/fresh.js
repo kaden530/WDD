@@ -82,6 +82,7 @@ document.querySelector("button").addEventListener("click", recipe);
 
 /*These funtions take the users info, validate it and return it to be displayed. */
 function recipe(){
+  let order= new Date()
   document.getElementById("userName").textContent = document.getElementById("fname").value +"'s";
   document.getElementById("specialInst").innerHTML = document.getElementById("instructions").value
   document.querySelector(".userEmail").textContent = document.getElementById("email").value
@@ -104,10 +105,10 @@ prott =prott.toFixed(1)
 fatst =fatst.toFixed(1)
 calort =calort.toFixed(1)
 sugart = sugart.toFixed(1)
-console.log(prott);
-console.log(carbt);
-
-
+console.log(order);
+order = order.toLocaleString();
+console.log(order);
+document.getElementById("timestamp").textContent=order;
   document.getElementById("title").textContent = ingrtt;
   document.getElementById("carbohydrates").textContent = carbt;
   document.getElementById("Protiens").textContent = prott;
