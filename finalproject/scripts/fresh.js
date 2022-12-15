@@ -1,4 +1,5 @@
 let Fruit=[];
+document.getElementById("last").textContent = `Last Modification: ${document.lastModified}`;
 
 /*setting local storage and basic variables*/
 const drinksDisplay= document.getElementById("drinkNumber");
